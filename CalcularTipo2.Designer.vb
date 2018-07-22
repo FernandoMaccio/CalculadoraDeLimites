@@ -32,18 +32,19 @@ Partial Class CalcularTipo2
         Me.Label5 = New System.Windows.Forms.Label()
         Me.txt2C = New System.Windows.Forms.TextBox()
         Me.btnCalcular = New System.Windows.Forms.Button()
+        Me.btnBack = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'txt2X
         '
-        Me.txt2X.Location = New System.Drawing.Point(43, 38)
+        Me.txt2X.Location = New System.Drawing.Point(43, 67)
         Me.txt2X.Name = "txt2X"
         Me.txt2X.Size = New System.Drawing.Size(20, 20)
         Me.txt2X.TabIndex = 11
         '
         'txt2B
         '
-        Me.txt2B.Location = New System.Drawing.Point(135, 9)
+        Me.txt2B.Location = New System.Drawing.Point(135, 38)
         Me.txt2B.Name = "txt2B"
         Me.txt2B.Size = New System.Drawing.Size(20, 20)
         Me.txt2B.TabIndex = 10
@@ -52,7 +53,7 @@ Partial Class CalcularTipo2
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.Label3.Location = New System.Drawing.Point(104, 9)
+        Me.Label3.Location = New System.Drawing.Point(104, 38)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(29, 20)
         Me.Label3.TabIndex = 9
@@ -60,7 +61,7 @@ Partial Class CalcularTipo2
         '
         'txt2A
         '
-        Me.txt2A.Location = New System.Drawing.Point(78, 9)
+        Me.txt2A.Location = New System.Drawing.Point(78, 38)
         Me.txt2A.Name = "txt2A"
         Me.txt2A.Size = New System.Drawing.Size(20, 20)
         Me.txt2A.TabIndex = 8
@@ -69,7 +70,7 @@ Partial Class CalcularTipo2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.Label2.Location = New System.Drawing.Point(12, 38)
+        Me.Label2.Location = New System.Drawing.Point(12, 67)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(34, 20)
         Me.Label2.TabIndex = 7
@@ -79,7 +80,7 @@ Partial Class CalcularTipo2
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.Label4.Location = New System.Drawing.Point(12, 9)
+        Me.Label4.Location = New System.Drawing.Point(12, 38)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(69, 20)
         Me.Label4.TabIndex = 6
@@ -88,7 +89,7 @@ Partial Class CalcularTipo2
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(75, 29)
+        Me.Label1.Location = New System.Drawing.Point(75, 58)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(85, 13)
         Me.Label1.TabIndex = 12
@@ -98,7 +99,7 @@ Partial Class CalcularTipo2
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.Label5.Location = New System.Drawing.Point(86, 56)
+        Me.Label5.Location = New System.Drawing.Point(86, 85)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(30, 20)
         Me.Label5.TabIndex = 13
@@ -106,25 +107,35 @@ Partial Class CalcularTipo2
         '
         'txt2C
         '
-        Me.txt2C.Location = New System.Drawing.Point(126, 56)
+        Me.txt2C.Location = New System.Drawing.Point(126, 85)
         Me.txt2C.Name = "txt2C"
         Me.txt2C.Size = New System.Drawing.Size(20, 20)
         Me.txt2C.TabIndex = 14
         '
         'btnCalcular
         '
-        Me.btnCalcular.Location = New System.Drawing.Point(80, 92)
+        Me.btnCalcular.Location = New System.Drawing.Point(80, 121)
         Me.btnCalcular.Name = "btnCalcular"
         Me.btnCalcular.Size = New System.Drawing.Size(75, 23)
         Me.btnCalcular.TabIndex = 15
         Me.btnCalcular.Text = "Calcular"
         Me.btnCalcular.UseVisualStyleBackColor = True
         '
+        'btnBack
+        '
+        Me.btnBack.Location = New System.Drawing.Point(12, 12)
+        Me.btnBack.Name = "btnBack"
+        Me.btnBack.Size = New System.Drawing.Size(51, 23)
+        Me.btnBack.TabIndex = 16
+        Me.btnBack.Text = "<---"
+        Me.btnBack.UseVisualStyleBackColor = True
+        '
         'CalcularTipo2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(166, 124)
+        Me.ClientSize = New System.Drawing.Size(166, 151)
+        Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.btnCalcular)
         Me.Controls.Add(Me.txt2C)
         Me.Controls.Add(Me.Label5)
@@ -152,4 +163,5 @@ Partial Class CalcularTipo2
     Friend WithEvents Label5 As Label
     Friend WithEvents txt2C As TextBox
     Friend WithEvents btnCalcular As Button
+    Friend WithEvents btnBack As Button
 End Class

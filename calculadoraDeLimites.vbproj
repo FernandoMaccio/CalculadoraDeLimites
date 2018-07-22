@@ -84,6 +84,18 @@
     <Compile Include="CalcularTipo2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CalcularTipo3.Designer.vb">
+      <DependentUpon>CalcularTipo3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CalcularTipo3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalcularTipo4.Designer.vb">
+      <DependentUpon>CalcularTipo4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CalcularTipo4.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Home.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +125,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CalcularTipo2.resx">
       <DependentUpon>CalcularTipo2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalcularTipo3.resx">
+      <DependentUpon>CalcularTipo3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalcularTipo4.resx">
+      <DependentUpon>CalcularTipo4.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.vb</DependentUpon>

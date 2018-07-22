@@ -12,3 +12,19 @@ C:\Users\Alumno\AppData\Local\Temporary Projects\calculadoraDeLimites\obj\Debug\
 C:\Users\Alumno\AppData\Local\Temporary Projects\calculadoraDeLimites\obj\Debug\calculadoraDeLimites.xml
 C:\Users\Alumno\AppData\Local\Temporary Projects\calculadoraDeLimites\obj\Debug\calculadoraDeLimites.pdb
 C:\Users\Alumno\AppData\Local\Temporary Projects\calculadoraDeLimites\obj\Debug\calculadoraDeLimites.CalcularTipo2.resources
+C:\Users\Fernando\Calculadora\calculadoraDeLimites\bin\Debug\calculadoraDeLimites.exe.config
+C:\Users\Fernando\Calculadora\calculadoraDeLimites\bin\Debug\calculadoraDeLimites.exe
+C:\Users\Fernando\Calculadora\calculadoraDeLimites\bin\Debug\calculadoraDeLimites.pdb
+C:\Users\Fernando\Calculadora\calculadoraDeLimites\bin\Debug\calculadoraDeLimites.xml
+C:\Users\Fernando\Calculadora\calculadoraDeLimites\obj\Debug\calculadoraDeLimites.vbprojAssemblyReference.cache
+C:\Users\Fernando\Calculadora\calculadoraDeLimites\obj\Debug\calculadoraDeLimites.CalcularTipo1.resources
+C:\Users\Fernando\Calculadora\calculadoraDeLimites\obj\Debug\calculadoraDeLimites.CalcularTipo2.resources
+C:\Users\Fernando\Calculadora\calculadoraDeLimites\obj\Debug\calculadoraDeLimites.CalcularTipo3.resources
+C:\Users\Fernando\Calculadora\calculadoraDeLimites\obj\Debug\calculadoraDeLimites.CalcularTipo4.resources
+C:\Users\Fernando\Calculadora\calculadoraDeLimites\obj\Debug\calculadoraDeLimites.Home.resources
+C:\Users\Fernando\Calculadora\calculadoraDeLimites\obj\Debug\calculadoraDeLimites.Resources.resources
+C:\Users\Fernando\Calculadora\calculadoraDeLimites\obj\Debug\calculadoraDeLimites.vbproj.GenerateResource.cache
+C:\Users\Fernando\Calculadora\calculadoraDeLimites\obj\Debug\calculadoraDeLimites.vbproj.CoreCompileInputs.cache
+C:\Users\Fernando\Calculadora\calculadoraDeLimites\obj\Debug\calculadoraDeLimites.exe
+C:\Users\Fernando\Calculadora\calculadoraDeLimites\obj\Debug\calculadoraDeLimites.xml
+C:\Users\Fernando\Calculadora\calculadoraDeLimites\obj\Debug\calculadoraDeLimites.pdb

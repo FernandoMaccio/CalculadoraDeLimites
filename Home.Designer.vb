@@ -22,65 +22,65 @@ Partial Class Home
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.btnTipo1 = New System.Windows.Forms.Button()
+        Me.btnTipo3 = New System.Windows.Forms.Button()
+        Me.btnTipo2 = New System.Windows.Forms.Button()
+        Me.btnTipo4 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnTipo1
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 12)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(96, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Tipo 1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnTipo1.Location = New System.Drawing.Point(12, 12)
+        Me.btnTipo1.Name = "btnTipo1"
+        Me.btnTipo1.Size = New System.Drawing.Size(96, 23)
+        Me.btnTipo1.TabIndex = 0
+        Me.btnTipo1.Text = "Tipo 1"
+        Me.btnTipo1.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnTipo3
         '
-        Me.Button2.Location = New System.Drawing.Point(12, 70)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(96, 23)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Tipo 3"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnTipo3.Location = New System.Drawing.Point(12, 70)
+        Me.btnTipo3.Name = "btnTipo3"
+        Me.btnTipo3.Size = New System.Drawing.Size(96, 23)
+        Me.btnTipo3.TabIndex = 1
+        Me.btnTipo3.Text = "Tipo 3"
+        Me.btnTipo3.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnTipo2
         '
-        Me.Button3.Location = New System.Drawing.Point(12, 41)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(96, 23)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Tipo 2"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnTipo2.Location = New System.Drawing.Point(12, 41)
+        Me.btnTipo2.Name = "btnTipo2"
+        Me.btnTipo2.Size = New System.Drawing.Size(96, 23)
+        Me.btnTipo2.TabIndex = 2
+        Me.btnTipo2.Text = "Tipo 2"
+        Me.btnTipo2.UseVisualStyleBackColor = True
         '
-        'Button4
+        'btnTipo4
         '
-        Me.Button4.Location = New System.Drawing.Point(12, 99)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(96, 23)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Tipo 4 / Yapa"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btnTipo4.Location = New System.Drawing.Point(12, 99)
+        Me.btnTipo4.Name = "btnTipo4"
+        Me.btnTipo4.Size = New System.Drawing.Size(96, 23)
+        Me.btnTipo4.TabIndex = 3
+        Me.btnTipo4.Text = "Tipo 4 / Yapa"
+        Me.btnTipo4.UseVisualStyleBackColor = True
         '
         'Home
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(120, 132)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnTipo4)
+        Me.Controls.Add(Me.btnTipo2)
+        Me.Controls.Add(Me.btnTipo3)
+        Me.Controls.Add(Me.btnTipo1)
         Me.Name = "Home"
         Me.Text = "Home"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents btnTipo1 As Button
+    Friend WithEvents btnTipo3 As Button
+    Friend WithEvents btnTipo2 As Button
+    Friend WithEvents btnTipo4 As Button
 End Class

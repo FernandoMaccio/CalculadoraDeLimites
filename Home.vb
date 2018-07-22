@@ -1,11 +1,21 @@
 ﻿Public Class Home
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub btnTipo1_Click(sender As Object, e As EventArgs) Handles btnTipo1.Click
         CalcularTipo1.Visible = True
         Me.Visible = False
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub btnTipo2_Click(sender As Object, e As EventArgs) Handles btnTipo2.Click
         CalcularTipo2.Visible = True
         Me.Visible = False
+    End Sub
+
+    Private Sub btnTipo3_Click(sender As Object, e As EventArgs) Handles btnTipo3.Click
+        CalcularTipo3.Visible = True
+        Me.Visible = False
+    End Sub
+
+    Private Sub btnTipo4_Click(sender As Object, e As EventArgs) Handles btnTipo4.Click
+        CalcularTipo4.Visible = True
+        Me.Visible = True
     End Sub
 End Class

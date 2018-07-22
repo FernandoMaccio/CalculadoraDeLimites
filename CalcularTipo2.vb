@@ -9,14 +9,20 @@
             MsgBox("Error al ingresar C")
         ElseIf txt2X.Text = "" Or Not Int32.TryParse(txt2X.Text, x) Then
             MsgBox("Error al ingresar X")
-        End If
-        Dim resultado1 As Integer = (a * x) + b
-        Dim resultado2 As Integer = (x * x) - c
-        Dim resultado As Double = resultado1 / resultado2
-        If (x * x) - c = 0 Then
-            MsgBox("El resultado no existe")
         Else
-            MsgBox(String.Concat("Resultado: " + resultado))
+            Dim resultado1 As Integer = (a * x) + b
+            Dim resultado2 As Integer = (x * x) - c
+            Dim resultado As Double = resultado1 / resultado2
+            If (x * x) - c = 0 Then
+                MsgBox("El resultado no existe")
+            Else
+                MsgBox(String.Concat("Resultado: " + resultado.ToString()))
+            End If
         End If
+    End Sub
+
+    Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
+        Me.Visible = False
+        Home.Visible = True
     End Sub
 End Class
