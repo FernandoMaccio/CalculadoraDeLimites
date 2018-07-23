@@ -1,6 +1,6 @@
 ﻿Public Class CalcularTipo1
     Private Sub btnCalcular_Click(sender As Object, e As EventArgs) Handles btnCalcular.Click
-        Dim a, b, c, x As Integer
+        Dim a, b, x As Integer
         If txt1A.Text = "" Or Not Int32.TryParse(txt1A.Text, a) Then
             MsgBox("Error al ingresar A")
         ElseIf txt1B.Text = "" Or Not Int32.TryParse(txt1B.Text, b) Then

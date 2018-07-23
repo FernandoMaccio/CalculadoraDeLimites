@@ -16,6 +16,6 @@
 
     Private Sub btnTipo4_Click(sender As Object, e As EventArgs) Handles btnTipo4.Click
         CalcularTipo4.Visible = True
-        Me.Visible = True
+        Me.Visible = False
     End Sub
 End Class
